@@ -1,2 +1,27 @@
 # Center-Alligned-PWM-Generator
-RTL-to-Layout implementation of a Center-Alligned Pulse Width Modulation Generator with programmable duty cycle and frequency, capable of producing a symmetric and controllable PWM signal for efficient and low-noise operation.
+
+## Overview
+This project implements a Center-Alligned PWM Generator with programmable duty cycle and frequency using Verilog HDL.
+
+## Features
+- Center-Alligned PWM
+- Programmable Duty cycle
+- Programmable Frequency
+- RTL Design
+- Simulation based verification
+- Synthesis using Cadence Genus
+- Physical Design using Cadence Innovus
+
+## Tools used
+- Verilog HDL
+- Cadence NCLaunch
+- Cadence Genus
+- Cadence Innovus
+
+## Design Flow
+RTL design -> Simulation -> Sythesis -> Floorplanning -> Placement -> CTS -> Routing -> Layout
+
+## Applications
+- Motor Control
+- Power Electronics
+- LED Dimming
